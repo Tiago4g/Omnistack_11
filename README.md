@@ -3,7 +3,7 @@
 </h1>
 
 <h2 align="center">
-  Semana Omnistack 11.0
+  Semana Omnistack 11.0 || Rocketseat
 </h2>
 
 <p align="center">
