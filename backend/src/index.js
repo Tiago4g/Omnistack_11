@@ -4,14 +4,8 @@ const routes = require('./routes');
 
 const app = express();
 
-// Colocar qual o link, onde frontend pode acessar o backend. Quando aplicação estiver em produção
-// Ex:   app.use(cors({
-//           origin: "http://meuapp.com"
-//        }));
-app.use(cors()); 
-
+app.use(cors());
 app.use(express.json());
 app.use(routes);
-
 
 app.listen(3333);
